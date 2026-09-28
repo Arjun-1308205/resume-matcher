@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Resume Matcher</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;800&family=IBM+Plex+Sans:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css"></head>
+<body>
+<header><h1>Does your resume say what the job asks for?</h1>
+<p>Add a resume and a job description. Everything is analysed in your browser, so nothing is uploaded.</p></header>
+<main>
+<section class="inputs">
+<div class="box" id="drop"><h2>Resume</h2>
+<label class="file"><input type="file" id="file" accept=".pdf,.docx,.txt"><span id="fname">Choose or drop a PDF, DOCX or TXT</span></label>
+<textarea id="resume" placeholder="Or paste the resume text here"></textarea></div>
+<div class="box"><h2>Job description</h2><textarea id="jd" placeholder="Paste the job description here"></textarea></div>
+</section>
+<div class="bar"><label><input type="checkbox" id="anon" checked> Remove contact details before scoring</label>
+<button id="sample" class="ghost">Try a sample</button><button id="go">Analyse match</button></div>
+<p id="err" role="alert"></p>
+<section id="out" hidden>
+<div class="score"><svg viewBox="0 0 200 112" aria-hidden="true"><path class="track" d="M20 100A80 80 0 0 1 180 100"/><path id="arc" class="arc" d="M20 100A80 80 0 0 1 180 100"/><text id="pct" x="100" y="96" text-anchor="middle">0%</text></svg>
+<div><h2 id="verdict"></h2><p id="detail"></p></div></div>
+<div class="parts" id="parts"></div>
+<h2>Skills the job asks for</h2><p class="hint"><span class="chip on">filled</span> you have it &nbsp; <span class="chip off">hollow</span> not found on your resume</p>
+<div id="strip" class="strip"></div>
+<h2>How to close the gaps</h2><ul id="recs"></ul>
+</section></main>
+<footer>Scores are a screening aid, not a hiring decision. Names are not removed automatically.</footer>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mammoth/1.6.0/mammoth.browser.min.js"></script>
+<script src="data/skills.js"></script><script src="data/samples.js"></script><script src="app.js"></script>
+</body></html>
