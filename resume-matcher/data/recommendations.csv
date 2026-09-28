@@ -1,0 +1,24 @@
+skill,suggestion,resource
+docker,Containerise one of your projects and add the Dockerfile to the repo.,https://docs.docker.com/get-started/
+kubernetes,Deploy a small containerised app to a local cluster with minikube or kind.,https://kubernetes.io/docs/tutorials/
+aws,Deploy a project to AWS (EC2 or Elastic Beanstalk) and document the steps.,https://aws.amazon.com/training/
+azure,Publish a web app to Azure App Service; consider the AZ-900 fundamentals certification.,https://learn.microsoft.com/training/
+gcp,Try Cloud Run for a containerised app; consider Cloud Digital Leader certification.,https://cloud.google.com/learn
+sql,Practise joins and window functions and add a project that queries a real database.,https://mode.com/sql-tutorial/
+postgresql,Use PostgreSQL as the backing store for a project instead of CSV files.,https://www.postgresql.org/docs/current/tutorial.html
+mongodb,Build a small CRUD API backed by MongoDB.,https://learn.mongodb.com/
+fastapi,Wrap a model or script in a FastAPI service with typed endpoints.,https://fastapi.tiangolo.com/tutorial/
+flask,Build a small REST service in Flask.,https://flask.palletsprojects.com/
+pytorch,Reimplement a small model in PyTorch and train it on a public dataset.,https://pytorch.org/tutorials/
+tensorflow,Train a small Keras model and export it.,https://www.tensorflow.org/tutorials
+transformers,Fine-tune or run a HuggingFace model for a text task.,https://huggingface.co/learn/nlp-course
+nlp,Build a text classification or entity extraction project.,https://web.stanford.edu/~jurafsky/slp3/
+spark,Process a larger dataset with PySpark and describe the speed-up.,https://spark.apache.org/docs/latest/api/python/
+airflow,Schedule a small ETL pipeline as an Airflow DAG.,https://airflow.apache.org/docs/
+ci/cd,Add a GitHub Actions workflow that runs tests on every push.,https://docs.github.com/actions
+github actions,Add a GitHub Actions workflow that runs tests on every push.,https://docs.github.com/actions
+mlops,Track experiments with MLflow and version your model artefacts.,https://mlflow.org/docs/latest/
+statistics,Write up a project using hypothesis testing or confidence intervals.,https://www.khanacademy.org/math/statistics-probability
+tableau,Publish a dashboard to Tableau Public.,https://public.tableau.com/
+power bi,Build a dashboard in Power BI Desktop; consider the PL-300 certification.,https://learn.microsoft.com/power-bi/
+unit testing,Add pytest tests and report coverage in the README.,https://docs.pytest.org/

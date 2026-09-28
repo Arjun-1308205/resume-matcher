@@ -1,0 +1,14 @@
+Machine Learning Engineer
+
+We are looking for an ML Engineer with 3+ years of experience to build and
+deploy NLP models.
+
+Requirements:
+- Bachelor's degree in Computer Science or related field
+- Strong Python, pandas and scikit-learn
+- Experience with PyTorch and Hugging Face transformers
+- Building REST APIs with FastAPI
+- Docker and CI/CD with GitHub Actions
+- Cloud experience on AWS
+- SQL and PostgreSQL
+- Understanding of MLOps practices and unit testing

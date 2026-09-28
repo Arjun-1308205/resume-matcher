@@ -1,0 +1,71 @@
+skill,category,aliases
+python,language,
+java,language,
+javascript,language,js
+typescript,language,
+c++,language,
+c#,language,
+sql,language,
+r,language,
+bash,language,shell scripting
+pandas,library,
+numpy,library,
+scikit-learn,library,sklearn|scikit learn
+tensorflow,library,
+pytorch,library,torch
+keras,library,
+spacy,library,
+nltk,library,
+transformers,library,hugging face|huggingface
+opencv,library,
+matplotlib,visualization,
+seaborn,visualization,
+plotly,visualization,
+tableau,visualization,
+power bi,visualization,powerbi
+streamlit,framework,
+flask,framework,
+fastapi,framework,
+django,framework,
+react,framework,react.js|reactjs
+node.js,framework,nodejs|node
+spring boot,framework,
+postgresql,database,postgres
+mysql,database,
+mongodb,database,mongo
+redis,database,
+sqlite,database,
+snowflake,database,
+docker,devops,
+kubernetes,devops,k8s
+git,devops,
+github actions,devops,
+ci/cd,devops,cicd|continuous integration
+jenkins,devops,
+terraform,devops,
+linux,devops,
+aws,cloud,amazon web services
+azure,cloud,microsoft azure
+gcp,cloud,google cloud
+heroku,cloud,
+airflow,data engineering,apache airflow
+spark,data engineering,pyspark|apache spark
+kafka,data engineering,apache kafka
+hadoop,data engineering,
+etl,data engineering,
+machine learning,concept,ml
+deep learning,concept,
+nlp,concept,natural language processing
+computer vision,concept,
+llm,concept,large language models|large language model
+rest api,concept,restful|rest apis|restful apis
+data structures,concept,data structures and algorithms|dsa
+algorithms,concept,
+oop,concept,object-oriented programming|object oriented programming
+statistics,concept,
+a/b testing,concept,ab testing
+mlops,concept,
+agile,practice,scrum
+unit testing,practice,pytest|unittest
+communication,soft skill,
+leadership,soft skill,

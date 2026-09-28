@@ -1,0 +1,20 @@
+Priya Sharma
+priya.sharma@example.com | +91 98765 43210
+
+SUMMARY
+Data science graduate with 2 years of experience building machine learning
+models and data pipelines in Python.
+
+EDUCATION
+B.Tech in Computer Science
+
+EXPERIENCE
+Data Analyst Intern - 2 years experience in analytics
+- Built ETL scripts in Python and pandas to clean sales data stored in MySQL.
+- Trained scikit-learn classifiers and reported results with matplotlib and seaborn.
+- Built a Streamlit dashboard used by the sales team.
+- Used Git and GitHub for version control.
+
+SKILLS
+Python, SQL, pandas, numpy, scikit-learn, matplotlib, seaborn, Streamlit, Git,
+statistics, machine learning, NLP basics, communication
